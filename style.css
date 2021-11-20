@@ -3,24 +3,44 @@ body {
     display: flex;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 10%;
+    background: #B4E1FF;
 }
 
 .title {
-    display: flex;
     margin-left: auto;
     margin-right: auto;
+    border: 3px solid black;
+    width: 33.3%;
+    text-align: center;
+    padding-top: 5%;
 }
+
 
 .wrapper {
+    text-align: center;
     width: auto;
     display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    width: 33.3%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
     margin-left: auto;
     margin-right: auto;
 }
 
-h1 {
+.results {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;
+    width: 33.3%;
 }
-
-
-

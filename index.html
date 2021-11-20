@@ -9,47 +9,60 @@
 </head>
 <body>
     <div class ="title">
-    <h1>COVID19 API</h1>
+        <p>
+        <h1>COVID19 API</h1>
+        </p>
+        <p>
+            <h3>
+        Displays a list of countries that are available inputs and then fetches 
+            total cases and deaths for that country.
+            </h3>
+        </p>
     </div>
 
-    <div class = "wrapper">
-        <div class = "controls">
-
             <!--Search-->
-
+        <div class = "wrapper">
             <form>
-                <!--
                 <p>
-                    <label for = "search">Enter a Country name</label>
-                    <input type = "text" id = "search" class = "search" required>
-                </p>
-
-                <br>
-                -->
-                <p>
+                    <h3>Available Countries</h3>
                     <select id = "locality-dropdown" name = "locality"></select>
                 </p>
-                <!--
-                <br>
-
+                <!-- <p>
+                    <label for = "search"><h3>Enter a Country:</h3></label>
+                        <input type = "text" id = "search" class = "search" required>
+                </p> -->
                 <p>
-                    <button class = "submit">Submit</button>
+                    <button id = 'submit' class = "submit">Fetch Results</button>
                 </p>
-                -->
             </form>
         </div>
 
         <!--Results-->
 
-        <div class = "results">
-
-            <!--Results from Request-->
-
+        <div id = 'results' class = "results">
             <section>
-                <p></p>
+                
             </section>
         </div>
-    </div>
+
+        <!-- <div id = 'results' class = 'results'>
+            <p>
+            <label for = 'Country'><h5>Country</h5></label>
+            <label for = 'country-result'></label>
+            </p>
+            <br>
+            <p>
+            <label for = 'Total Cases'><h5>Total Cases</h5></label>
+            <label for = 'total-cases'></label>
+            </p>
+            <br>
+            <p>
+            <label for = 'Country'><h5>Total Deaths</h5></label>
+            <label for = 'total-deaths'></label>
+            </p>
+        </div> -->
+    
     <script type = "text/javascript" src = "script.js"></script>
 </body>
 </html>
+
