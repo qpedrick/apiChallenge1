@@ -66,47 +66,6 @@ function displayResults(json) {
     const result2 = document.getElementById('results2')
     result2.innerHTML = json.Global.TotalDeaths
 }
-    /*let newConfirmed = results.NewConfirmed
-    let totalConfirmed = results.TotalConfirmed
-    let newDeaths = results.NewDeaths
-    let totalDeaths = results.TotalDeaths
-    let newRecovered = results.NewRecovered
-    let totalRecovered = results.TotalRecovered
-    */
 
     document.getElementById('results').addEventListener('click',() =>
     document.createElement('results'))
-
-
-/*
-
-{
-  "Global": {
-    "NewConfirmed": 100282,
-    "TotalConfirmed": 1162857,
-    "NewDeaths": 5658,
-    "TotalDeaths": 63263,
-    "NewRecovered": 15405,
-    "TotalRecovered": 230845
-  },
-
-fetch(‘https://rickandmortyapi.com/api/character/’)   
-.then(response => response.json())   
-.then(characters => showCharacters(characters.results));
-
-showCharacters = characters => {  
-const charactersDiv = document.querySelector(‘#rick-and-morty-  characters’);  
-characters.forEach(character => {    
-    const characterElement = document.createElement(‘p’);
-    characterElement.innerText = `Character Name: ${character.name}`;
-    charactersDiv.append(characterElement);  });
-}
-
-*/
-
-
-
-/*document.getElementById('getLocation').addEventListener('click',()=>
-{retrieveLocation(document.getElementById('locationId').value).then(name=>{document.getElementById('locationName').innerHTML=name;});});
-
-*/
