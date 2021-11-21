@@ -13,10 +13,9 @@
         <h1>COVID19 API</h1>
         </p>
         <p>
-            <h3>
-        Displays a list of countries that are available inputs and then fetches 
-            total cases and deaths for that country.
-            </h3>
+            <p>
+        Displays a list of countries that count towards global case and death count. Press <strong>Fetch Global Results</strong> to see current counts.
+            </p>
         </p>
     </div>
 
@@ -24,7 +23,7 @@
         <div class = "wrapper">
             <form>
                 <p>
-                    <h3>Available Countries</h3>
+                    <h3>Countries within Global Data</h3>
                     <select id = "locality-dropdown" name = "locality"></select>
                 </p>
                 <!-- <p>
@@ -32,7 +31,7 @@
                         <input type = "text" id = "search" class = "search" required>
                 </p> -->
                 <p>
-                    <button id = 'submit' class = "submit">Fetch Results</button>
+                    <button id = 'submit' class = "submit">Fetch Global Results</button>
                 </p>
             </form>
         </div>
@@ -40,9 +39,11 @@
         <!--Results-->
 
         <div id = 'results' class = "results">
-            <section>
-                
-            </section>
+        
+            <p id = 'results1'>Global Cases</p>
+            <br>
+            <p id = 'results2'>Global Deaths</p>
+
         </div>
 
         <!-- <div id = 'results' class = 'results'>

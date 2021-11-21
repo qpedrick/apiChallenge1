@@ -13,7 +13,8 @@ body {
     border: 3px solid black;
     width: 33.3%;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 3%;
+    background-color: blue;
 }
 
 
@@ -33,6 +34,7 @@ form {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+    background-color: chartreuse;
 }
 
 .results {
@@ -43,4 +45,6 @@ form {
     margin-right: auto;
     border: 3px solid black;
     width: 33.3%;
+    padding-top: 3%;
+    background-color: crimson;
 }
